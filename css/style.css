@@ -938,7 +938,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder, select:-ms-input-pl
         margin-left: 30px; } }
   .main-menu nav > ul > li > a {
     font-size: 14px;
-    line-height: 30px;
+    line-height: 0;
     font-weight: 500;
     color: #6b6b6b;
     text-transform: uppercase;
@@ -1110,7 +1110,7 @@ a.meanmenu-reveal {
   padding: 250px 0; }
   @media only screen and (min-width: 1200px) and (max-width: 1599px) {
     .hero-caption {
-      padding: 200px 0; } }
+      padding: 100px 0; } }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .hero-caption {
       padding: 150px 0; } }
@@ -1390,6 +1390,10 @@ a.meanmenu-reveal {
     background-color: #548e31; }
   .single-service:nth-child(4) {
     background-color: #487b2a; }
+  .single-service:nth-child(5) {
+    background-color: #33581e; }
+  .single-service:nth-child(6) {
+    background-color: #243d15; }
   .single-service img {
     margin-bottom: 20px; }
   .single-service h4 {
